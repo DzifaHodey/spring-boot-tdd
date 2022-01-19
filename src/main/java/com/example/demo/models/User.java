@@ -20,4 +20,7 @@ public class User {
     @Column(nullable = false)
     private String firstName;
 
+    public User(String firstName) {
+        this.firstName = firstName;
+    }
 }
